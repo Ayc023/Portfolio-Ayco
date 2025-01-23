@@ -12,7 +12,7 @@
             font-family: Arial, sans-serif;
             background-color: #f4f4f9;
             color: #333;
-            padding-top: 4rem; /* Adjust padding to prevent overlap with fixed navbar */
+            padding-top: 4rem; 
         }
         header {
             background-color: #7e7e7e;
@@ -65,15 +65,47 @@
         .btn-primary {
             background-color: black;
             border-color: black;
-            color: white;  /* Make the button text white */
+            color: white;  
         }
 
         .btn-primary:hover {
-            background-color: #333;  /* Darken the button on hover */
+            background-color: #333;  
             border-color: #333;
         }
 </style>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background: linear-gradient(135deg, #1e1e2f, #3a3a5b); box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+        <div class="container-fluid">
+           
+            <a class="navbar-brand" href="#" style="font-family: 'Orbitron', sans-serif; font-size: 1.5rem; letter-spacing: 2px; transition: color 0.3s ease;">
+                Ayco's Portfolio
+            </a>
     
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="border: none;">
+                <span class="navbar-toggler-icon" style="background: radial-gradient(circle, #6a11cb, #2575fc);"></span>
+            </button>
+    
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link "  href="#about" style="transition: color 0.3s ease;">About Me </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects" style="transition: color 0.3s ease;">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills" style="transition: color 0.3s ease;">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact" style="transition: color 0.3s ease;">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
 </body>
 </html>
