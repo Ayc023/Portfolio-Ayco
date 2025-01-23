@@ -454,5 +454,39 @@
             style="max-width: 80%; height: auto; border-radius: 15px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); transition: transform 0.3s ease, box-shadow 0.3s ease;">
     </div>
 
+    <div style="text-align: center; font-size: 1.3em; margin-bottom: 30px;">
+        <p style="transition: color 0.3s ease;">
+            <i class="fas fa-envelope" style="color: #ff7f50; margin-right: 15px; transition: color 0.3s ease;"></i>
+            <a href="mailto:Dakiesayco@gmail.com" style="color: #fff; text-decoration: none; transition: color 0.3s ease;">Dakiesayco@gmail.com</a>
+        </p>
+        <p style="transition: color 0.3s ease;">
+            <i class="fas fa-phone" style="color: #48c9b0; margin-right: 15px;"></i>
+            <a href="tel:09750637725" style="color: #fff; text-decoration: none; transition: color 0.3s ease;">+63 975 063 7725</a>
+        </p>
+        <p style="transition: color 0.3s ease;">
+            <i class="fab fa-facebook" style="color: #3b5998; margin-right: 15px;"></i>
+            <a href="https://www.facebook.com/ohh.itz.ayco" target="_blank" style="color: #fff; text-decoration: none; transition: color 0.3s ease;">facebook.com/yourprofile</a>
+        </p>
+    </div>
+
+    <div class="text-center mt-4">
+        <a href="mailto:Dakiesayco@gmail.com" 
+           style="padding: 12px 30px; background-color: #ff7f50; color: white; border-radius: 40px; text-decoration: none; font-weight: bold; font-size: 1.2em; transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);">
+            Let's Chat! <i class="fas fa-comments"></i>
+        </a>
+    </div>
+    
+    <script>
+        document.querySelector('img').addEventListener('mouseenter', function() {
+            this.style.transform = 'scale(1.05)';
+            this.style.boxShadow = '0 8px 30px rgba(0, 0, 0, 0.7)';
+        });
+        document.querySelector('img').addEventListener('mouseleave', function() {
+            this.style.transform = 'scale(1)';
+            this.style.boxShadow = '0 4px 20px rgba(0, 0, 0, 0.5)';
+        });
+    </script>
+</section>
+
 </body>
 </html>
