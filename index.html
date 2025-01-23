@@ -259,5 +259,89 @@
     </div>
 </div>
 
+<section id="projects" style="background: linear-gradient(135deg, #121212, #1e1e1e); color: white; padding: 60px 0;">
+    <h2 style="font-family: 'Poppins', sans-serif; font-size: 3rem; text-align: center; color: #ffffff; text-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);">
+        <i class="fas fa-project-diagram me-2"></i> Projects
+    </h2>
+
+    <div class="projects d-flex flex-wrap justify-content-center mt-5">
+        
+        <div class="project" style="background-color: rgba(0, 0, 0, 0.8); border-radius: 20px; margin: 20px; width: 320px; padding: 20px; box-shadow: 0 5px 30px rgba(0, 0, 0, 0.5); transition: transform 0.3s ease-in-out, box-shadow 0.3s;">
+            <h3 style="font-size: 1.75rem; color: #ffffff; text-transform: uppercase;">
+                <i class="fas fa-project-diagram me-2"></i> Project 1
+            </h3>
+          
+            <div class="text-center">
+                <img src="itsnotabug.gif" 
+                    alt="Funny DevTech Image 1" 
+                    style="max-width: 100%; height: auto; border-radius: 15px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); transition: transform 0.3s ease-in-out;">
+            </div>
+            <button type="button" class="btn btn-primary mt-4 d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#project1Modal" style="border-radius: 30px; transition: background-color 0.3s;">
+                <i class="fas fa-info-circle me-2"></i> View Details
+            </button>
+        </div>
+        
+        
+        <div class="project" style="background-color: rgba(0, 0, 0, 0.8); border-radius: 20px; margin: 20px; width: 320px; padding: 20px; box-shadow: 0 5px 30px rgba(0, 0, 0, 0.5); transition: transform 0.3s ease-in-out, box-shadow 0.3s;">
+            <h3 style="font-size: 1.75rem; color: #ffffff; text-transform: uppercase;">
+                <i class="fas fa-project-diagram me-2"></i> Project 2
+            </h3>
+            
+            <div class="text-center">
+                <img src="itsnotabug.gif" 
+                    alt="Funny DevTech Image 2" 
+                    style="max-width: 100%; height: auto; border-radius: 15px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); transition: transform 0.3s ease-in-out;">
+            </div>
+            <button type="button" class="btn btn-primary mt-4 d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#project2Modal" style="border-radius: 30px; transition: background-color 0.3s;">
+                <i class="fas fa-info-circle me-2"></i> View Details
+            </button>
+        </div>
+    </div>
+</section>
+
+
+<div class="modal fade" id="project1Modal" tabindex="-1" aria-labelledby="project1ModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content" style="background: #121212; color: white; border-radius: 20px;">
+            <div class="modal-header" style="background-color: #0066cc; color: white; border-radius: 20px 20px 0 0;">
+                <h5 class="modal-title" id="project1ModalLabel">Project 1 Details</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="sevenevelen.png" alt="Project 1 Screenshot" class="img-fluid mb-3" style="border-radius: 15px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);">
+                <p>
+                    <strong>My First Project: Delivery Web App</strong><br><br>
+                    This is my very first project—a delivery web app built using HTML, CSS, PHP, and JavaScript. I created this project not only for fun but also as a way to dive deeper into web development. It gave me the opportunity to experiment with new techniques, sharpen my skills, and familiarize myself with the different languages and frameworks used in building a web app. This was a great learning experience, and I’m excited to see how my progress evolves with each new project!
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="project2Modal" tabindex="-1" aria-labelledby="project2ModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content" style="background: #121212; color: white; border-radius: 20px;">
+            <div class="modal-header" style="background-color: #0066cc; color: white; border-radius: 20px 20px 0 0;">
+                <h5 class="modal-title" id="project2ModalLabel">Project 2 Details</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="462574795_572052972234256_5103219769108426750_n.jpg" alt="Project 2 Screenshot" class="img-fluid mb-3" style="border-radius: 15px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);">
+                <p>
+                    <strong>Second Project: Health Office Information System</strong><br><br>
+                    For my second project, I created an Information System for a health office using the Laravel framework! The goal was to make managing health records and appointments a breeze, helping everyone stay organized and efficient. Working with Laravel was a fun challenge—it gave me the chance to explore cool features like routing, authentication, and database management. This project helped me level up my web development skills, and I’m excited to take all the new knowledge I gained and apply it to future projects!
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 </body>
 </html>
