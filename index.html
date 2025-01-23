@@ -170,7 +170,7 @@
     
     <!-- Short Bio with a Fun Twist -->
     <p style="font-size: 1rem; margin-top: 10px; font-style: italic; color: rgba(255, 255, 255, 0.7); z-index: 2; position: relative;">
-        Aspiring Developer | Code Whisperer | Coffee-Driven Problem Solver
+        Aspiring Developer | Newbie | Coffee-Driven Problem Solver
     </p>
     
     <!-- Optional: Fun CTA Button or Social Icons -->
@@ -188,6 +188,59 @@
         }
     </style>
 </header>
+
+<section id="about" class="text-center py-5" style="background-color: rgb(255, 255, 255); color: white; position: relative; overflow: hidden;">
+    <!-- Subtle Glow Background -->
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: radial-gradient(circle, rgba(255, 255, 255, 0.1), transparent); pointer-events: none; z-index: 1;"></div>
+
+    <h2 class="mb-4" style="font-family: 'Poppins', sans-serif; font-size: 2.5rem; color: #000000; z-index: 2; position: relative;">
+        <i class="fas fa-user-circle me-2"></i> About Me
+    </h2>
+
+    <p style="font-size: 1.2rem; color: #000000; max-width: 800px; margin: 0 auto; line-height: 1.8; z-index: 2; position: relative;">
+        Hi there! 👋 I'm <strong>Emmanuel O. Ayco Jr.</strong>, a <em>4th-year Bachelor of Science in Information Technology student</em> with a passion for all things tech. 
+        Whether it's crafting clean, efficient code or solving tricky problems, I’m always up for the challenge! 🛠️ 
+        In my free time, you’ll often find me exploring new technologies, brainstorming creative projects, or enjoying a good cup of coffee ☕ (essential for all coders, right?). 
+        Let's build something awesome together! 🚀
+    </p>
+
+    <!-- Interactive Call-to-Action -->
+    <div class="mt-4" style="z-index: 2; position: relative;">
+        <a href="#" data-bs-toggle="modal" data-bs-target="#gifModal" style="text-decoration: none; color: #007bff; font-size: 1.1rem; font-weight: bold; transition: color 0.3s ease;">
+            <i class="fas fa-info-circle me-2"></i> Click here to know more about me
+        </a>
+    </div>
+
+    
+    <style>
+        section#about {
+            padding: 80px 20px;
+        }
+
+        
+        #about a:hover {
+            color: #0056b3 !important;
+            text-shadow: 0 0 10px rgba(0, 123, 255, 0.75);
+        }
+
+        
+        #about p {
+            animation: fadeIn 1.5s ease-out;
+        }
+
+        
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</section>
 
 </body>
 </html>
