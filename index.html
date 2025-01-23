@@ -136,5 +136,58 @@
         }
     </style>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-oP6TpxokMmUJljyG7XmTZXyHIQjPqxHTPuyfVbBk5c7FHZ0H8/7KPAFz5QFwQ71u" crossorigin="anonymous"></script>
+
+
+
+ <!-- Header -->
+<header class="text-center py-5" style="background: linear-gradient(135deg, #1e1e2f, #2c3e50); color: white; position: relative; overflow: hidden;">
+    <!-- Floating Particle Animation -->
+    <div class="particles" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 1;">
+        <!-- Add a canvas or particle effect using a JS library like particles.js -->
+    </div>
+
+    <!-- Profile Picture with Hover Effect -->
+    <img src="nawong.png" alt="Profile Picture" class="profile-img rounded-circle mb-3" style="width: 150px; height: 150px; object-fit: cover; border: 5px solid rgba(255, 255, 255, 0.8); z-index: 2; position: relative; transition: transform 0.3s ease;">
+    
+    <!-- Hover Animation -->
+    <script>
+        document.querySelector('.profile-img').addEventListener('mouseover', function () {
+            this.style.transform = 'scale(1.1)';
+        });
+        document.querySelector('.profile-img').addEventListener('mouseout', function () {
+            this.style.transform = 'scale(1)';
+        });
+    </script>
+
+    <!-- Name and Title -->
+    <h1 style="font-family: 'Poppins', sans-serif; font-size: 2.5rem; letter-spacing: 2px; margin-bottom: 0.5rem; z-index: 2; position: relative;">
+        <i class="fas fa-user me-2"></i> Emmanuel O. Ayco Jr.
+    </h1>
+    <p style="font-size: 1.2rem; font-weight: 500; color: rgba(255, 255, 255, 0.8); z-index: 2; position: relative;">
+        4th Year Bachelor of Science in Information Technology
+    </p>
+    
+    <!-- Short Bio with a Fun Twist -->
+    <p style="font-size: 1rem; margin-top: 10px; font-style: italic; color: rgba(255, 255, 255, 0.7); z-index: 2; position: relative;">
+        Aspiring Developer | Code Whisperer | Coffee-Driven Problem Solver
+    </p>
+    
+    <!-- Optional: Fun CTA Button or Social Icons -->
+    <a href="#contact" class="btn btn-primary mt-3" style="border-radius: 25px; z-index: 2; position: relative; background: linear-gradient(90deg, #6a11cb, #2575fc); border: none; padding: 10px 25px; font-size: 1rem;">
+        Let's Connect!
+    </a>
+    
+    <!-- Dynamic Glow Effect -->
+    <style>
+        header .btn-primary {
+            transition: box-shadow 0.3s ease;
+        }
+        header .btn-primary:hover {
+            box-shadow: 0 0 15px rgba(106, 17, 203, 0.75), 0 0 30px rgba(37, 117, 252, 0.5);
+        }
+    </style>
+</header>
+
 </body>
 </html>
